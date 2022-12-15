@@ -28,28 +28,28 @@ Create a new notification in the database.
 
 Set a notification as read in the database.
 
-PATCH `/notifications/recipientIdHere/read`
+PATCH `http://localhost:3000/notifications/recipientIdHere/read`
 
 ### UNREAD A NOTIFICATION 
 
 Set a notification as unread in the database.
 
-PATCH `/notifications/recipientIdHere/unread`
+PATCH `http://localhost:3000/notifications/recipientIdHere/unread`
 
 ### CANCEL A NOTIFICATION 
 
 Remove the notification created at date.
 
-PATCH `/notifications/recipientIdHere/cancel`
+PATCH `http://localhost:3000/notifications/recipientIdHere/cancel`
 
 ### COUNT OF NOTIFICATION 
 
 Returns the count of all notification in the database.
 
-GET `/notifications/count/from/recipientIdHere`
+GET `http://localhost:3000/notifications/count/from/recipientIdHere`
 
 ### GET NOTIFICATION BY RECIPIENT ID
 
 Return a notification by recipient id.
 
-GET `/notifications/from/recipientIdHere`
+GET `http://localhost:3000//notifications/from/recipientIdHere`
