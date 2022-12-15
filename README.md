@@ -52,4 +52,4 @@ GET `http://localhost:3000/notifications/count/from/recipientIdHere`
 
 Return a notification by recipient id.
 
-GET `http://localhost:3000//notifications/from/recipientIdHere`
+GET `http://localhost:3000/notifications/from/recipientIdHere`
